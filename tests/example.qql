@@ -1,4 +1,5 @@
 # Hi
 # This is a comment
-append database.table (id, name)
-values (1, 'test');
+
+append database.table (id, name) -> (1, 'test')
+# Expected result: table `database.table` doesn't exist.
